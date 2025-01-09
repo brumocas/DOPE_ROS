@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" binding="early" name="dope_skill" qt:editorversion="4.7.0" xmlns:qt="http://www.qt.io/2015/02/scxml-ext">
+    <state id="DopeSkill">
+        <qt:editorinfo scenegeometry="-80.88;-373.25;39.72;3.39;181.82;107.24" geometry="-80.88;-373.25;120.60;376.64;181.82;107.24"/>
+        <datamodel>
+            <data id="actionName" expr="&quot;DopeSkill&quot;"/>
+            <data id="actionGoal" expr="{&quot;operation_mode&quot;:0}">
+                <qt:editorinfo geometry="26.49;30.57;0;0;0;0"/>
+            </data>
+            <data id="actionType" expr="'dope_skill_msgs/DopeSkillAction'"/>
+            <data id="actionResult" expr="{}"/>
+            <data id="outcomes" expr="[]">
+                <qt:editorinfo geometry="26.52;25.50;0;0;0;0"/>
+            </data>
+        </datamodel>
+    </state>
+</scxml>

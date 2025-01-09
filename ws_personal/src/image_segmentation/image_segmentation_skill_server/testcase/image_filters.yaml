@@ -1,0 +1,11 @@
+pipeline:
+#  1_crop_box:
+#    x_min: 0
+#    width: 2064
+#    y_min: 0
+#    height: 1240
+  0_clahe_filter:
+    clipLimit: 4
+    tileGridSize: (8,8)
+#  1_denoise:
+#    data_type: ConfigRGB

@@ -1,0 +1,8 @@
+prefix=/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_client
+
+Name: dope_skill_client
+Description: Description of dope_skill_client
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy

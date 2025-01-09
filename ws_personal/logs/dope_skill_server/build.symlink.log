@@ -1,0 +1,6 @@
+Symlinking /home/bruno/ros_ws/ws_personal/devel/share/dope_skill_server/cmake/dope_skill_serverConfig.cmake
+Symlinking /home/bruno/ros_ws/ws_personal/devel/share/dope_skill_server/cmake/dope_skill_serverConfig-version.cmake
+Symlinking /home/bruno/ros_ws/ws_personal/devel/lib/python3/dist-packages/dope_skill_server/__init__.py
+Symlinking /home/bruno/ros_ws/ws_personal/devel/lib/pkgconfig/dope_skill_server.pc
+Symlinking /home/bruno/ros_ws/ws_personal/devel/lib/dope_skill_server/dope_skill.py
+Symlinking /home/bruno/ros_ws/ws_personal/devel/lib/dope_skill_server/cmake.lock

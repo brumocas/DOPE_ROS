@@ -1,0 +1,1 @@
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_node/share/dope_node/cmake/dope_nodeConfig.cmake

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <arg name="node_namespace" default="image_segmentation_skill" />
+    <arg name="clear_params" default="true" />
+
+    <arg name="deep_learning_library" default="tensorflow" />
+    <!-- <arg name="deep_learning_library" default="pytorch" /> -->
+
+    <arg name="config_path" default="$(find image_segmentation_skill_server)/testcase"/>
+    <!--Topics-->
+    <arg name="image_subscriber" default="/phoxi_camera/image_raw" />
+    <arg name="image_publisher" default="/image_segmentation_skill/segmented_image"/>
+    <arg name="image_path" default="$(find image_segmentation_skill_server)/testcase/scan_0010.png"/>
+
+    <group ns="$(arg node_namespace)">
+        <param name="model_path" value="$(arg config_path)" />
+    </group>
+
+
+    <group ns="$(arg node_namespace)">
+        <param name="image_subscriber" type="str" value="$(arg image_subscriber)" />
+        <param name="image_publisher"  type="str" value="$(arg image_publisher)" />
+    </group>
+
+    <!--    <group ns="$(arg node_namespace)">-->
+    <node name="$(arg node_namespace)" pkg="image_segmentation_skill_server" type="image_segmentation_skill_server_node.py" clear_params="true" respawn="true" output="screen" />
+    <rosparam command="load" ns="$(arg node_namespace)" file="$(arg config_path)/config.yaml" subst_value="true"/>
+    <rosparam command="load" ns="neural_networks" file="$(arg config_path)/neural_network.yaml" subst_value="true"/>
+    <rosparam command="load" ns="image_processing" file="$(arg config_path)/image_filters.yaml" subst_value="true"/>
+    <rosparam command="load" ns="estimation_pipeline" file="$(arg config_path)/estimation_pipeline.yaml" subst_value="true"/>
+
+    <node pkg="image_publisher" type="image_publisher" name="phoxi_camera" args="$(arg image_path)" >
+        <param name="anonymous" value="false" />
+        <param name="frame_id" value="camera_gray_optical_" />
+        <param name="name" value= "camera" />
+        <param name="publish_rate" value= "1" />
+    </node>
+
+
+    <!--    </group>-->
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/bruno/ros_ws/ws_personal/devel/.private/dope_node
+
+Name: dope_node
+Description: Description of dope_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

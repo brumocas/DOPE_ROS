@@ -1,0 +1,8 @@
+prefix=/home/bruno/ros_ws/ws_personal/install
+
+Name: catkin_tools_prebuild
+Description: Description of catkin_tools_prebuild
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

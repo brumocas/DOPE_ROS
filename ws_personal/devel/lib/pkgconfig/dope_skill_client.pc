@@ -1,0 +1,1 @@
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_client/lib/pkgconfig/dope_skill_client.pc

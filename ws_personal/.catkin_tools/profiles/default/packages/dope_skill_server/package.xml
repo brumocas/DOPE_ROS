@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>dope_skill_server</name>
+  <version>0.0.0</version>
+  <description>The dope_skill_server package</description>
+
+  <maintainer email="todo@todo.todo">todo</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>dope_skill_msgs</build_depend>
+  
+  <run_depend>actionlib</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>dope_skill_msgs</run_depend>
+  
+  <test_depend>python3-mock</test_depend>
+  <test_depend>rostest</test_depend>
+
+</package>

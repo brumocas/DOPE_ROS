@@ -1,0 +1,1 @@
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_msgs/share/dope_skill_msgs/msg/DopeSkillActionFeedback.msg

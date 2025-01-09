@@ -1,0 +1,11 @@
+#ignore specific subfolders
+*/cmake-build-debug
+*/.idea
+/.idea
+*/__pycache__
+
+
+
+# ignore all logs
+*.log
+*.pyc

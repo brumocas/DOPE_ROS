@@ -1,0 +1,1 @@
+/home/bruno/ros_ws/ws_personal/devel/.private/image_segmentation_skill_msgs/share/image_segmentation_skill_msgs/msg/ImageSegmentationSkillFeedback.msg

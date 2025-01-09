@@ -1,0 +1,6 @@
+dope_skill/dope_skill_client
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_client/cmake.lock /home/bruno/ros_ws/ws_personal/devel/./cmake.lock
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_client/share/dope_skill_client/cmake/dope_skill_clientConfig-version.cmake /home/bruno/ros_ws/ws_personal/devel/share/dope_skill_client/cmake/dope_skill_clientConfig-version.cmake
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_client/share/dope_skill_client/cmake/dope_skill_clientConfig.cmake /home/bruno/ros_ws/ws_personal/devel/share/dope_skill_client/cmake/dope_skill_clientConfig.cmake
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_client/lib/python3/dist-packages/dope_skill_client/__init__.py /home/bruno/ros_ws/ws_personal/devel/lib/python3/dist-packages/dope_skill_client/__init__.py
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_client/lib/pkgconfig/dope_skill_client.pc /home/bruno/ros_ws/ws_personal/devel/lib/pkgconfig/dope_skill_client.pc

@@ -1,0 +1,8 @@
+dope_skill/dope_skill_server
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server/cmake.lock /home/bruno/ros_ws/ws_personal/devel/./cmake.lock
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server/share/dope_skill_server/cmake/dope_skill_serverConfig.cmake /home/bruno/ros_ws/ws_personal/devel/share/dope_skill_server/cmake/dope_skill_serverConfig.cmake
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server/share/dope_skill_server/cmake/dope_skill_serverConfig-version.cmake /home/bruno/ros_ws/ws_personal/devel/share/dope_skill_server/cmake/dope_skill_serverConfig-version.cmake
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server/lib/python3/dist-packages/dope_skill_server/__init__.py /home/bruno/ros_ws/ws_personal/devel/lib/python3/dist-packages/dope_skill_server/__init__.py
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server/lib/pkgconfig/dope_skill_server.pc /home/bruno/ros_ws/ws_personal/devel/lib/pkgconfig/dope_skill_server.pc
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server/lib/dope_skill_server/dope_skill.py /home/bruno/ros_ws/ws_personal/devel/lib/dope_skill_server/dope_skill.py
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server/lib/dope_skill_server/cmake.lock /home/bruno/ros_ws/ws_personal/devel/lib/dope_skill_server/cmake.lock

@@ -1,0 +1,13 @@
+/home/bruno/ros_ws/ws_personal/build/catkin_tools_prebuild
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/setup.sh /home/bruno/ros_ws/ws_personal/devel/./setup.sh
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/env.sh /home/bruno/ros_ws/ws_personal/devel/./env.sh
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/setup.zsh /home/bruno/ros_ws/ws_personal/devel/./setup.zsh
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/local_setup.zsh /home/bruno/ros_ws/ws_personal/devel/./local_setup.zsh
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/local_setup.bash /home/bruno/ros_ws/ws_personal/devel/./local_setup.bash
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/local_setup.sh /home/bruno/ros_ws/ws_personal/devel/./local_setup.sh
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/cmake.lock /home/bruno/ros_ws/ws_personal/devel/./cmake.lock
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/setup.bash /home/bruno/ros_ws/ws_personal/devel/./setup.bash
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/_setup_util.py /home/bruno/ros_ws/ws_personal/devel/./_setup_util.py
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake /home/bruno/ros_ws/ws_personal/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake /home/bruno/ros_ws/ws_personal/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+/home/bruno/ros_ws/ws_personal/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc /home/bruno/ros_ws/ws_personal/devel/lib/pkgconfig/catkin_tools_prebuild.pc

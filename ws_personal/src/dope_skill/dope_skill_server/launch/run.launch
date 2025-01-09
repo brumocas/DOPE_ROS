@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name='action_name' default="DopeSkill"/>
+
+  <node pkg="dope_skill_server" type="dope_skill.py" name="dope_skill" output="screen">
+      <param name='action_name' value='$(arg action_name)' />
+  </node>
+
+</launch>

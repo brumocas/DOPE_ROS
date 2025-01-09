@@ -1,0 +1,6 @@
+devel_space: /home/bruno/ros_ws/ws_personal/devel
+install: false
+install_space: /home/bruno/ros_ws/ws_personal/install
+profile: default
+source_space: /home/bruno/ros_ws/ws_personal/src
+workspace: /home/bruno/ros_ws/ws_personal

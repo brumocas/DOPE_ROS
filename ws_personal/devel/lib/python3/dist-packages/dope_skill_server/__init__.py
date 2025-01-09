@@ -1,0 +1,1 @@
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server/lib/python3/dist-packages/dope_skill_server/__init__.py

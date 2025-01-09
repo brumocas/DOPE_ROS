@@ -1,0 +1,8 @@
+skill_name: dope_skill
+
+server_language: python
+
+ros_distro: noetic
+
+goals:
+  operation_mode: int32

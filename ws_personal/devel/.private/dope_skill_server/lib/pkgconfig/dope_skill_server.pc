@@ -1,0 +1,8 @@
+prefix=/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_server
+
+Name: dope_skill_server
+Description: Description of dope_skill_server
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy actionlib dope_skill_msgs

@@ -1,0 +1,96 @@
+; Auto-generated. Do not edit!
+
+
+(cl:in-package image_segmentation_skill_msgs-msg)
+
+
+;//! \htmlinclude ImageSegmentationSkillGoal.msg.html
+
+(cl:defclass <ImageSegmentationSkillGoal> (roslisp-msg-protocol:ros-message)
+  ((detection_model
+    :reader detection_model
+    :initarg :detection_model
+    :type cl:string
+    :initform "")
+   (operation_mode
+    :reader operation_mode
+    :initarg :operation_mode
+    :type cl:integer
+    :initform 0))
+)
+
+(cl:defclass ImageSegmentationSkillGoal (<ImageSegmentationSkillGoal>)
+  ())
+
+(cl:defmethod cl:initialize-instance :after ((m <ImageSegmentationSkillGoal>) cl:&rest args)
+  (cl:declare (cl:ignorable args))
+  (cl:unless (cl:typep m 'ImageSegmentationSkillGoal)
+    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name image_segmentation_skill_msgs-msg:<ImageSegmentationSkillGoal> is deprecated: use image_segmentation_skill_msgs-msg:ImageSegmentationSkillGoal instead.")))
+
+(cl:ensure-generic-function 'detection_model-val :lambda-list '(m))
+(cl:defmethod detection_model-val ((m <ImageSegmentationSkillGoal>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader image_segmentation_skill_msgs-msg:detection_model-val is deprecated.  Use image_segmentation_skill_msgs-msg:detection_model instead.")
+  (detection_model m))
+
+(cl:ensure-generic-function 'operation_mode-val :lambda-list '(m))
+(cl:defmethod operation_mode-val ((m <ImageSegmentationSkillGoal>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader image_segmentation_skill_msgs-msg:operation_mode-val is deprecated.  Use image_segmentation_skill_msgs-msg:operation_mode instead.")
+  (operation_mode m))
+(cl:defmethod roslisp-msg-protocol:serialize ((msg <ImageSegmentationSkillGoal>) ostream)
+  "Serializes a message object of type '<ImageSegmentationSkillGoal>"
+  (cl:let ((__ros_str_len (cl:length (cl:slot-value msg 'detection_model))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_str_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_str_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (c) (cl:write-byte (cl:char-code c) ostream)) (cl:slot-value msg 'detection_model))
+  (cl:write-byte (cl:ldb (cl:byte 8 0) (cl:slot-value msg 'operation_mode)) ostream)
+  (cl:write-byte (cl:ldb (cl:byte 8 8) (cl:slot-value msg 'operation_mode)) ostream)
+  (cl:write-byte (cl:ldb (cl:byte 8 16) (cl:slot-value msg 'operation_mode)) ostream)
+  (cl:write-byte (cl:ldb (cl:byte 8 24) (cl:slot-value msg 'operation_mode)) ostream)
+)
+(cl:defmethod roslisp-msg-protocol:deserialize ((msg <ImageSegmentationSkillGoal>) istream)
+  "Deserializes a message object of type '<ImageSegmentationSkillGoal>"
+    (cl:let ((__ros_str_len 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) __ros_str_len) (cl:read-byte istream))
+      (cl:setf (cl:slot-value msg 'detection_model) (cl:make-string __ros_str_len))
+      (cl:dotimes (__ros_str_idx __ros_str_len msg)
+        (cl:setf (cl:char (cl:slot-value msg 'detection_model) __ros_str_idx) (cl:code-char (cl:read-byte istream)))))
+    (cl:setf (cl:ldb (cl:byte 8 0) (cl:slot-value msg 'operation_mode)) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) (cl:slot-value msg 'operation_mode)) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) (cl:slot-value msg 'operation_mode)) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) (cl:slot-value msg 'operation_mode)) (cl:read-byte istream))
+  msg
+)
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<ImageSegmentationSkillGoal>)))
+  "Returns string type for a message object of type '<ImageSegmentationSkillGoal>"
+  "image_segmentation_skill_msgs/ImageSegmentationSkillGoal")
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql 'ImageSegmentationSkillGoal)))
+  "Returns string type for a message object of type 'ImageSegmentationSkillGoal"
+  "image_segmentation_skill_msgs/ImageSegmentationSkillGoal")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<ImageSegmentationSkillGoal>)))
+  "Returns md5sum for a message object of type '<ImageSegmentationSkillGoal>"
+  "69dc3d6e4c7e6e89a60d1b5eb79bf88b")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'ImageSegmentationSkillGoal)))
+  "Returns md5sum for a message object of type 'ImageSegmentationSkillGoal"
+  "69dc3d6e4c7e6e89a60d1b5eb79bf88b")
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<ImageSegmentationSkillGoal>)))
+  "Returns full string definition for message of type '<ImageSegmentationSkillGoal>"
+  (cl:format cl:nil "# ====== DO NOT MODIFY! AUTOGENERATED FROM AN ACTION DEFINITION ======~%#################~%# Goal definition~%string detection_model~%uint32 operation_mode~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'ImageSegmentationSkillGoal)))
+  "Returns full string definition for message of type 'ImageSegmentationSkillGoal"
+  (cl:format cl:nil "# ====== DO NOT MODIFY! AUTOGENERATED FROM AN ACTION DEFINITION ======~%#################~%# Goal definition~%string detection_model~%uint32 operation_mode~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:serialization-length ((msg <ImageSegmentationSkillGoal>))
+  (cl:+ 0
+     4 (cl:length (cl:slot-value msg 'detection_model))
+     4
+))
+(cl:defmethod roslisp-msg-protocol:ros-message-to-list ((msg <ImageSegmentationSkillGoal>))
+  "Converts a ROS message object to a list"
+  (cl:list 'ImageSegmentationSkillGoal
+    (cl:cons ':detection_model (detection_model msg))
+    (cl:cons ':operation_mode (operation_mode msg))
+))

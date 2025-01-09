@@ -1,0 +1,1 @@
+/home/bruno/ros_ws/ws_personal/devel/.private/image_segmentation_skill_msgs/lib/python3/dist-packages/image_segmentation_skill_msgs/__init__.py

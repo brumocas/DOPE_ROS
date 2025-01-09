@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/bruno/ros_ws/ws_personal/devel/.private/image_segmentation_skill_server/setup.sh

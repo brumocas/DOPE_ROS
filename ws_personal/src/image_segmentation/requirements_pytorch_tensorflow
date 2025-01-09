@@ -1,0 +1,7 @@
+pip install tensorflow==2.5.1
+pip install matplotlib
+pip install torch
+pip install numpy==1.20.3
+pip install ultralytics
+pip install thop
+        

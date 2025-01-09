@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /home/bruno/ros_ws/ws_personal/build/dope_skill_msgs/cmake/dope_skill_msgs-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_msgs/share/dope_skill_msgs/msg/DopeSkillAction.msg'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [TransformStamped]: unknown package [geometry_msgs]
+  on search path [{{'dope_skill_msgs':
+  ['/home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_msgs/share/dope_skill_msgs/msg'],
+  'actionlib_msgs': ['/opt/ros/noetic/share/actionlib_msgs/cmake/../msg'],
+  'std_msgs': ['/opt/ros/noetic/share/std_msgs/cmake/../msg']}}]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:17 (generate_messages)
+
+

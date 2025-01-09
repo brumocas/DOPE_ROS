@@ -1,0 +1,3 @@
+int32 instance_nr
+std_msgs/Float32MultiArray scores
+sensor_msgs/Image mask_image

@@ -1,0 +1,7 @@
+set(dope_skill_server_SETUP_PY_SETUP_MODULE "setuptools")
+set(dope_skill_server_SETUP_PY_VERSION "0.0.0")
+set(dope_skill_server_SETUP_PY_SCRIPTS "")
+set(dope_skill_server_SETUP_PY_PACKAGES "dope_skill_server")
+set(dope_skill_server_SETUP_PY_PACKAGE_DIRS "src/dope_skill_server")
+set(dope_skill_server_SETUP_PY_MODULES "")
+set(dope_skill_server_SETUP_PY_MODULE_DIRS "")

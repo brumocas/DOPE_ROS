@@ -1,0 +1,15 @@
+#goal definition
+int32 operation_mode # Action operation mode
+string model_name # Weight name
+string object_name # Object name to operate detections
+---
+#result definition
+int32 percentage
+string skillStatus
+string outcome
+geometry_msgs/TransformStamped pose
+
+---
+#feedback
+int32 percentage
+string skillStatus

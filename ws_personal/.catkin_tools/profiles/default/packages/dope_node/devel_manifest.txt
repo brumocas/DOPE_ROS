@@ -1,0 +1,5 @@
+dope_node
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_node/cmake.lock /home/bruno/ros_ws/ws_personal/devel/./cmake.lock
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_node/share/dope_node/cmake/dope_nodeConfig-version.cmake /home/bruno/ros_ws/ws_personal/devel/share/dope_node/cmake/dope_nodeConfig-version.cmake
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_node/share/dope_node/cmake/dope_nodeConfig.cmake /home/bruno/ros_ws/ws_personal/devel/share/dope_node/cmake/dope_nodeConfig.cmake
+/home/bruno/ros_ws/ws_personal/devel/.private/dope_node/lib/pkgconfig/dope_node.pc /home/bruno/ros_ws/ws_personal/devel/lib/pkgconfig/dope_node.pc

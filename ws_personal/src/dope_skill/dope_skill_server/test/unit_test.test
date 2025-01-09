@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Unit Tests -->
+    <test test-name="test_dope_skill_class" pkg="dope_skill_server" type="test_dope_skill_class.py" />
+
+</launch>

@@ -1,0 +1,2 @@
+set(image_segmentation_skill_msgs_MESSAGE_FILES "msg/MaskDefinition.msg;msg/ImageSegmentationSkillAction.msg;msg/ImageSegmentationSkillActionGoal.msg;msg/ImageSegmentationSkillActionResult.msg;msg/ImageSegmentationSkillActionFeedback.msg;msg/ImageSegmentationSkillGoal.msg;msg/ImageSegmentationSkillResult.msg;msg/ImageSegmentationSkillFeedback.msg")
+set(image_segmentation_skill_msgs_SERVICE_FILES "")

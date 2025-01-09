@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/bruno/ros_ws/ws_personal/devel/.private/dope_skill_msgs/setup.sh

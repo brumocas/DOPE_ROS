@@ -1,0 +1,8 @@
+prefix=/home/bruno/ros_ws/ws_personal/devel/.private/image_segmentation_skill_msgs
+
+Name: image_segmentation_skill_msgs
+Description: Description of image_segmentation_skill_msgs
+Version: 0.0.0
+Cflags: -I/home/bruno/ros_ws/ws_personal/devel/.private/image_segmentation_skill_msgs/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs std_msgs sensor_msgs
