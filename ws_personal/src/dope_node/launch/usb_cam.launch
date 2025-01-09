@@ -1,0 +1,14 @@
+<launch>
+    <!-- Launch USB Camera node -->
+    <node name="usb_cam_node" pkg="usb_cam" type="usb_cam_node" output="screen">
+    
+        <!-- Parameters for the USB camera -->
+        <param name="video_device" value="/dev/video0"/>       <!-- Set camera device -->
+        <param name="image_width" value="640"/>                <!-- Set image width -->
+        <param name="image_height" value="480"/>               <!-- Set image height -->
+        <param name="framerate" value="30"/>                   <!-- Set framerate -->
+        <param name="pixel_format" value="mjpeg"/>             <!-- Set pixel format -->
+        <param name="camera_frame_id" value="usb_cam"/>        <!-- Frame ID for camera -->
+        
+    </node>
+</launch>

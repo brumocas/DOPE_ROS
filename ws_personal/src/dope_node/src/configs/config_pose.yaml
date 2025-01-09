@@ -1,0 +1,59 @@
+topic_camera: "/dope/webcam/image_raw"
+topic_camera_info: "/dope/webcam/camera_info"
+topic_publishing: "dope"
+input_is_rectified: True   # Whether the input image is rectified (strongly suggested!)
+downscale_height: 400      # if the input image is larger than this, scale it down to this pixel height
+
+# Comment any of these lines to prevent detection / pose estimation of that object
+weights: {
+    "coffee_box":"weights/coffee_box.pth",
+    "car_lock_black":"weights/car_lock_black.pth"
+}
+
+# Type of neural network architecture
+architectures: {
+    'coffee_box':"dope",
+    'car_lock_black':"dope"
+}
+
+# Cuboid dimension in cm x,y,z
+# From meshlab Cuboid dimension in cm y,z,x
+dimensions: {
+    "coffee_box": [0.1045, 0.2803, 0.1056],
+    "car_lock_black": [0.1317, 0.0363, 0.043]
+}
+
+class_ids: {
+    "coffee_box": 0,
+    "car_lock_black": 1
+}
+
+# optional: provide a transform that is applied to the pose returned by DOPE
+model_transforms: {
+#    "cracker": [[ 0,  0,  1,  0],
+#                [ 0, -1,  0,  0],
+#                [ 1,  0,  0,  0],
+#                [ 0,  0,  0,  1]]
+}
+
+meshes: {
+}
+
+draw_colors: {
+    "coffee_box": [0, 255, 0],  # green
+    "car_lock_black": [255, 0, 128]  # magenta
+}
+
+# optional: If the specified meshes are not in meters, provide a scale here (e.g. if the mesh is in centimeters, scale should be 0.01). default scale: 1.0.
+mesh_scales: {
+    "coffee_box": 0.01,
+    "car_lock_black": 0.01
+}
+
+overlay_belief_images: True   # Whether to overlay the input image on the belief images published on /dope/belief_[obj_name]
+
+# Config params for DOPE
+thresh_angle: 0.5
+thresh_map: 0.001
+sigma: 3
+thresh_points: 0.1
