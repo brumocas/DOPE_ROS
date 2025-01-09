@@ -1,9 +1,0 @@
-tensorflow==2.5.1
-opencv-python
-rospkg
-Ipython
-matplotlib
-protobuf==3.20.*
-pyyaml
-numpy==1.21
-scikit-image==0.16.2

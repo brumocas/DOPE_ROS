@@ -1,5 +1,0 @@
-pipeline:
-  1_mask_rcnn:
-    data_type: ConfigRGB
- # 1_yolov7:
- #   data_type: ConfigRGB
