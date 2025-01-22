@@ -8,8 +8,8 @@ This repository provides a ROS1 (Robot Operating System) package for running **D
 
 DOPE_ROS allows you to perform real-time inference using pre-trained DOPE models within a ROS1 environment. It provides a pipeline for processing RGB images, estimating object poses, and publishing the results as ROS messages for further use in your robotics system.
 
+[![Video Example](https://img.youtube.com/vi/TDc4nPoifh0/0.jpg)](https://www.youtube.com/watch?v=TDc4nPoifh0)
 [![Video Example Motor](https://img.youtube.com/vi/kIONlafkHns/0.jpg)](https://youtu.be/kIONlafkHns)
-
 ---
 
 ## Key Features
